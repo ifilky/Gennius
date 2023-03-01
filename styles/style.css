@@ -124,7 +124,7 @@ body{
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
-    padding: 3%;
+    padding: 24px;
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
@@ -138,6 +138,17 @@ body{
 
     .cabecalho__menu {
         justify-content: center;
+        gap: 5%;
+    }
+
+    .cabecalho__menu__link {
+        align-items: center;
+        display: flex;
+        font-size: 1em;
+        padding: 3%;
+        border: var(--cor-terciaria) double 5px;
+        border-radius: 5em;
+        box-shadow: 1px 1px var(--cor-terciaria);
     }
 
     .apresentacao {
@@ -150,6 +161,11 @@ body{
     }
 
     .apresentacao__imagem {
-        width: 60%;
+        width: 70%;
+    }
+
+    .apresentacao__conteudo__caixas {
+        width: 85vw;
+        padding: 3%;
     }
 }
