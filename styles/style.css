@@ -35,6 +35,11 @@ body{
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+    transition: 1s;
+}
+
+.cabecalho__menu__link:hover {
+    font-size: 1.7em;
 }
 
 .apresentacao{
